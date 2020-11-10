@@ -10,12 +10,5 @@
         </p>
     </div>
     <!-- Add company overview -->
-    <p>{{ .company.overview | markdownify }}</p>
-    <!-- Add the responsibilities handled at this position -->
-    <h6 class="text-muted">Responsibilities:</h6>
-    <ul class="justify-content-around">
-    {{ range $position.responsibilities }}
-        <li>{{ . | markdownify }}</li>
-    {{ end }}
-    </ul>
+  
 </div>
