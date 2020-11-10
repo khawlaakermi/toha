@@ -47,28 +47,7 @@
           {{ end }}
         </ul>
       </div>
-      {{ end }}
-      {{ if site.Params.newsletter.enable }}
-      <div class="col-md-4 col-sm-12">
-        <!-- <h5>Newsletter</h5> -->
-        <p>{{ i18n "newsletter_text" }}</p>
-        <form>
-          <div class="form-group">
-            <input
-              type="email"
-              class="form-control"
-              id="exampleInputEmail1"
-              aria-describedby="emailHelp"
-              placeholder="{{ i18n "newsletter_input_placeholder" }}"
-            />
-            <small id="emailHelp" class="form-text text-muted"
-              >{{ i18n "newsletter_warning" }}</small
-            >
-          </div>
-          <button type="submit" class="btn btn-info">{{ i18n "submit" }}</button>
-        </form>
-      </div>
-      {{ end }}
+      {{ end }}    
     </div>
   </div>
   <hr />
